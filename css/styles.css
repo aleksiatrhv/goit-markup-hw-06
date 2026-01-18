@@ -1303,7 +1303,6 @@ body {
 }
 
 @media (min-width: 1158px) {
-    .header .container,
     .container {
         max-width: 1440px;
         padding: 0 156px;
@@ -1425,9 +1424,7 @@ body {
         flex-direction: row;
         gap: 24px;
     }
-}
 
-@media (min-width: 1158px) {
     .header .container {
         max-width: 1440px;
         margin: 0 auto;
