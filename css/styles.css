@@ -849,9 +849,9 @@ body {
 }
 
 .modal-form-checkbox-icon {
-    width: 10px;
-    height: 8px;
-    transform: scale(1.5);
+    width: 16px;
+    height: 16px;
+    display: inline-block;
 }
 
 .modal-form-checkbox-input:checked + .modal-form-checkbox-label .modal-form-checkbox-custom {
@@ -863,6 +863,8 @@ body {
 .modal-form-checkbox-link {
     color: #4d5ae5;
     text-decoration: underline;
+    display: inline-block;
+    margin-left: 5px;
 }
 
 .modal-form-button {
